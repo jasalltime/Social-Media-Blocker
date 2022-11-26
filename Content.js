@@ -264,14 +264,3 @@ switch(window.location.hostname){
         document.body.innerHTML = generateHTML("TWITTER");
         break;
 }
-{
-    "manifest_version": 2,
-    "name": "SocialMediaBlocker",
-    "version":"0.1",
-    "content_scripts": [
-         {
-            "matches": ["<all_urls>"],
-            "js": ["Content.js"]
-         }
-    ]
-}
